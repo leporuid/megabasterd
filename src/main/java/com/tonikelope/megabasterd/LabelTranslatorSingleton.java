@@ -1313,7 +1313,7 @@ public class LabelTranslatorSingleton {
     }
 
     private void Chinese() {
-        _addTranslation("COPY ALL", "全部複製");
+        _addTranslation("COPY ALL", "複製 全部");
         _addTranslation("ALL COPIED!", "全部複製!");
         _addTranslation("FILE WITH SAME NAME AND SIZE ALREADY EXISTS", "已存在相同名稱大小的檔案");
         _addTranslation("WARNING: USING MEGA API WITHOUT API KEY MAY VIOLATE ITS TERM OF USE. YOU SHOULD GET A KEY -> https://mega.nz/sdk", "警告: 在沒有 API 密鑰的情況下使用 MEGA API 可能會違反其使用條款. API 密鑰獲取地址 -> https://mega.nz/sdk");
@@ -1341,7 +1341,7 @@ public class LabelTranslatorSingleton {
         _addTranslation("Enable log file", "啓用日誌檔案");
         _addTranslation("Font:", "字體:");
         _addTranslation("Loading...", "正在加載...");
-        _addTranslation("DEFAULT", "默認");
+        _addTranslation("DEFAULT", "預設");
         _addTranslation("ALTERNATIVE", "其他");
         _addTranslation("Download latest version", "下載最新版本");
         _addTranslation("PROVISION FAILED", "下載失敗");
@@ -1425,16 +1425,16 @@ public class LabelTranslatorSingleton {
         _addTranslation("Help", "幫助");
         _addTranslation("About", "關於");
         _addTranslation("Remember for this session", "記住本次會話");
-        _addTranslation("Restore folder data", "恢復檔案夾數據");
-        _addTranslation("Restoring data, please wait...", "正在恢複數據, 請稍候...");
+        _addTranslation("Restore folder data", "恢復檔案夾資料");
+        _addTranslation("Restoring data, please wait...", "正在恢複資料, 請稍候...");
         _addTranslation("File", "檔案");
         _addTranslation("Hide to tray", "隱藏到托盤");
         _addTranslation("Clear finished", "清除完成");
         _addTranslation("Exit", "退出");
-        _addTranslation("Default slots per file:", "每個檔案的默認線程:");
+        _addTranslation("Default slots per file:", "每個檔案的預設線程:");
         _addTranslation("Note: if you want to download without using a MEGA PREMIUM account you SHOULD enable it. (Slots consume RAM, so use them moderately).", "注意: 如果您想在不使用 MEGA PREMIUM 帳號的情況下下載, 您應該啓用它. (線程會消耗 RAM, 因此請適度使用它們).");
         _addTranslation("Max speed (KB/s):", "最大速度 (KB/s):");
-        _addTranslation("Default account:", "默認帳號:");
+        _addTranslation("Default account:", "預設帳號:");
         _addTranslation("TCP Port:", "TCP 端口:");
         _addTranslation("Note: you MUST \"OPEN\" this port in your router/firewall.", "注意: 這是強制性的 \"打開\" 路由器上的這個端口/firewall.");
         _addTranslation("Note: enable it in order to mitigate bandwidth limit. (Multi slot required).", "注意: 啓用它以減輕帶寬限制. (需要多線程).");
@@ -1468,7 +1468,7 @@ public class LabelTranslatorSingleton {
         _addTranslation("Yes", "確定");
         _addTranslation("Cancel", "取消");
         _addTranslation("UNEXPECTED ERROR!", "意外錯誤!");
-        _addTranslation("It seems MegaBasterd is streaming video. Do you want to exit?", "似乎 MegaBasterd 正在流式傳輸視頻. 你確定繼續嗎?");
+        _addTranslation("It seems MegaBasterd is streaming video. Do you want to exit?", "似乎 MegaBasterd 正在流式傳輸影片. 你確定繼續嗎?");
         _addTranslation("It seems MegaBasterd is provisioning down/uploads.\n\nIf you exit now, unprovisioned down/uploads will be lost.\n\nDo you want to continue?", "似乎 MegaBasterd 正在減少配置/上傳.\n\n如果你現在退出, 取消配置/上傳將丟失.\n\n你確定繼續嗎?");
         _addTranslation("It seems MegaBasterd is just finishing uploading some files.\n\nIF YOU EXIT NOW, THOSE UPLOADS WILL FAIL.\n\nDo you want to continue?", "似乎 MegaBasterd 剛剛完成了一些檔案上傳.\n\n如果您現在退出, 這些上傳將失敗.\n\n你確定繼續嗎?");
         _addTranslation("All your current settings and accounts will be deleted after import. (It is recommended to export your current settings before importing). \n\nDo you want to continue?", "導入後將刪除您當前的所有設置和帳號. (建議在導入前導出當前設置). \n\n你確定繼續嗎?");
@@ -1497,7 +1497,7 @@ public class LabelTranslatorSingleton {
         _addTranslation("If you DO NOT want to transfer some folder or file you can REMOVE it (to select several items at the same time use CTRL + LMOUSE).", "如果您不想傳輸某些檔案夾或檔案, 您可以刪除它 (同時選擇多個項目使用 CTRL + LMOUSE).");
         _addTranslation("Upload name:", "上傳名稱:");
         _addTranslation("Account:", "帳號:");
-        _addTranslation("Folder link detected!", "檢測到檔案夾連結!");
+        _addTranslation("Folder link detected!", "偵測到檔案夾連結!");
         _addTranslation("File already exists!", "檔案已存在!");
         _addTranslation("Megabasterd is stopping transferences safely, please wait...", "Megabasterd 正在安全地停止轉移, 請稍等...");
         _addTranslation("Put your MEGA/MegaCrypter/ELC link/s here (one per line):", "請輸入 MEGA/MegaCrypter/ELC  連結 (每行一個):");
@@ -1594,7 +1594,7 @@ public class LabelTranslatorSingleton {
         _addTranslation("No MEGA accounts available (Go to Settings > Accounts)", "沒有可用的 MEGA 帳號 (前往設置 > 帳號)");
         _addTranslation("MEGA API KEY:", "MEGA API KEY:");
         _addTranslation("MEGA API KEY ERROR", "MEGA API KEY 錯誤");
-        _addTranslation("An older version of MegaBasterd has been detected (", "已檢測到舊版本的 MegaBasterd");
+        _addTranslation("An older version of MegaBasterd has been detected (", "已偵測到舊版本的 MegaBasterd");
         _addTranslation(").\nDo you want to import all current settings and transfers from the previous version?\nWARNING: INCOMPATIBILITIES MAY EXIST BETWEEN VERSIONS.", ".\n是否要從以前的版本導入所有當前設置和傳輸?\n警告：版本之間可能存在不兼容性.");
         _addTranslation("All your transferences have finished", "所有轉移已完成");
         _addTranslation("Email", "Email");
